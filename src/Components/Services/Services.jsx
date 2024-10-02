@@ -1,5 +1,5 @@
 import React from 'react'
-import Scene from '../Cylinder/scene'
+import Scene from '../Cylinder/Scene.jsx'
 
 
 const Services = () => {
