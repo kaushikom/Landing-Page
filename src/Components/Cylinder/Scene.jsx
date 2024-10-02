@@ -15,7 +15,7 @@ const CustomCard = ({ title, description, position, rotation }) => (
 const Scene = () => {
  
   return (
-    <Canvas camera={{fov : 50}}>
+    <Canvas camera={{fov : 40}}>
         <OrbitControls enableZoom={false} />
         <ambientLight />
         <Cyl/>

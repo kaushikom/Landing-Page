@@ -8,11 +8,11 @@ const Cyl = () => {
     let tex = useTexture(Logo)
     let cyl = useRef(null);
     useFrame((state,delta)=>{
-        cyl.current.rotation.y += delta * 0.5;
+        cyl.current.rotation.y += delta * 0.4;
     })
   return (
     <mesh ref={cyl}>
-            <cylinderGeometry args={[2, 2, 2, 30, 1, true]}/>
+            <cylinderGeometry args={[2, 2, 2, 6, 1, true]}/>
             <meshStandardMaterial map={tex} transparent  side={THREE.DoubleSide} />
         </mesh>
   )
