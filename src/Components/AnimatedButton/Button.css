@@ -1,0 +1,54 @@
+.animated-btn {
+  position: relative;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border: 1px solid white;
+  cursor: pointer;
+  background-color: transparent;
+  color: #ffffff;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: color 0.4s ease-in-out;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.animated-btn .text {
+  position: relative;
+  z-index: 2;
+}
+
+.animated-btn .icon {
+  position: relative;
+  z-index: 2;
+  transition: transform 0.4s ease-in-out;
+}
+
+.animated-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  background-color: #006aff; /* Blue color */
+  transition: width 0.4s ease-in-out;
+  z-index: 1;
+}
+
+.animated-btn:hover::before {
+  width: 100%;
+}
+
+.animated-btn:hover .icon {
+  transform: translateX(5px);
+}
+
+.animated-btn:hover {
+  color: #ffffff;
+  border: none;
+}
