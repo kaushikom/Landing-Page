@@ -28,7 +28,7 @@ const Card = ({content, author, designation, profileUrl = ''}) => {
 
 const Testimonials = () => {
   return (
-    <section className='flex sm:justify-between flex-col sm:flex-row px-16 sm:h-[200vh] relative py-8'>
+    <section className='relative flex flex-col px-16 py-8 sm:justify-between sm:flex-row sm:h-[250vh]'>
         <div className='h-full sm:w-2/5'>
           <div className='sm:sticky sm:top-8'>
             <h1 className='text-[128px] bebas heading-size text-white'>WHAT OUR <span className='text-blue'>CLIENTS SAY</span></h1>
@@ -36,6 +36,8 @@ const Testimonials = () => {
           </div>
         </div>
         <div>
+            <Card />
+            <Card />
             <Card />
             <Card />
             <Card />
