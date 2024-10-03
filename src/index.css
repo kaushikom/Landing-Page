@@ -139,3 +139,14 @@ background-color: #060606;
   font-size: 8.5rem;
   line-height: 7rem;
 }
+.blue-blur{
+background: hsla(222, 54%, 21%, 1);
+
+background: radial-gradient(circle, hsla(222, 54%, 21%, 1) 0%, hsla(0, 0%, 0%, 1) 31%);
+
+background: -moz-radial-gradient(circle, hsla(222, 54%, 21%, 1) 0%, hsla(0, 0%, 0%, 1) 31%);
+
+background: -webkit-radial-gradient(circle, hsla(222, 54%, 21%, 1) 0%, hsla(0, 0%, 0%, 1) 31%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#182951", endColorstr="#000000", GradientType=1 );
+}

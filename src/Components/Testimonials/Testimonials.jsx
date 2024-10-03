@@ -32,11 +32,10 @@ const Testimonials = () => {
         <div className='h-full sm:w-2/5'>
           <div className='sm:sticky sm:top-8'>
             <h1 className='text-[128px] bebas heading-size text-white'>WHAT OUR <span className='text-blue'>CLIENTS SAY</span></h1>
-            <p className='mt-4 mb-8 text-off-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error aliquid excepturi aperiam numquam optio saepe aliquam tempora tempore tenetur, magni natus perferendis voluptates maiores distinctio voluptas maxime modi sapiente. Enim!</p>
+            <p className='mt-4 mb-8 uppercase text-off-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error aliquid excepturi aperiam numquam optio saepe aliquam tempora tempore tenetur, magni natus perferendis voluptates maiores distinctio voluptas maxime modi sapiente. Enim!</p>
           </div>
         </div>
         <div>
-            <Card />
             <Card />
             <Card />
             <Card />
@@ -46,21 +45,5 @@ const Testimonials = () => {
     </section>
   )
 }
-// const Testimonials = () => {
-//   return (
-//     <section className='flex px-8'>
-//         <div className='sticky top-0 w-2/5 text-white bebas heading-size'>
-//             <h1 className='text-[128px]'>WHAT OUR <span className='text-blue'>CLIENTS SAY</span></h1>
-//         </div>
-//         <div className='w-3/5 overflow-auto'>
-//             <Card />
-//             <Card />
-//             <Card />
-//             <Card />
-//         </div>
-//     </section>
-//   );
-// };
-
 
 export default Testimonials

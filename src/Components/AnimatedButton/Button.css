@@ -1,3 +1,4 @@
+/* Original Animated Button */
 .animated-btn {
   position: relative;
   padding: 12px 24px;
@@ -13,7 +14,6 @@
   display: flex;
   align-items: center;
   gap: 20px;
-  display: flex;
   justify-content: space-between;
 }
 
@@ -35,7 +35,7 @@
   left: 0;
   height: 100%;
   width: 0;
-  background-color: #006aff; /* Blue color */
+  background-color: #006aff;
   transition: width 0.4s ease-in-out;
   z-index: 1;
 }
@@ -51,4 +51,60 @@
 .animated-btn:hover {
   color: #ffffff;
   border: none;
+}
+
+/* Reverse Animation Button */
+.reverse-animated-btn {
+  position: relative;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border: 1px solid #006aff;
+  cursor: pointer;
+  background-color: #006aff; /* Initial background */
+  color: #ffffff;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.reverse-animated-btn .text {
+  position: relative;
+  z-index: 2;
+}
+
+.reverse-animated-btn .icon {
+  position: relative;
+  z-index: 2;
+  transition: transform 0.4s ease-in-out;
+}
+
+.reverse-animated-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #006aff;
+  transition: width 0.4s ease-in-out;
+  z-index: 1;
+}
+
+.reverse-animated-btn:hover::before {
+  width: 0; /* Shrinks on hover */
+}
+
+.reverse-animated-btn:hover .icon {
+  transform: translateX(5px);
+}
+
+.reverse-animated-btn:hover {
+  background-color: transparent;
+  color: white; /* Text changes to blue on hover */
+  border: 1px solid white;
 }

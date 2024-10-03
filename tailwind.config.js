@@ -11,6 +11,7 @@ export default {
       "off-white": "#CCCCCC",
       blue: "#3A6EF2",
       "dark-blue": "#3330D1",
+      yellow: "#fad207",
     },
     extend: {},
   },

@@ -1,5 +1,5 @@
 import React from 'react'
-import AnimatedButton from './Components/AnimatedButton/Animatedbutton.jsx'
+import {AnimatedButton} from './Components/AnimatedButton/Animatedbutton.jsx'
 import LogoSlider from './Components/LogoSlider/LogoSlider.jsx'
 import Logo from './assets/logo-lg.png'
 const Hero = () => {
