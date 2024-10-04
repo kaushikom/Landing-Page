@@ -6,6 +6,10 @@ import Problem from './Components/Problem'
 import Solution from './Components/Solution'
 import ChooseUs from './Components/ChooseUs'
 import Offer from './Components/Offer'
+import PricingComponent from './Components/Pricing'
+import GettingStarted from './Components/GettingStarted'
+import Contact from './Components/Contact'
+
 const App = () => {
   return (
     <>
@@ -16,6 +20,9 @@ const App = () => {
     <ChooseUs />
     <Testimonials />
     <Offer />
+    <PricingComponent />
+    <GettingStarted />
+    <Contact />
     </>
   )
 }

@@ -14,8 +14,8 @@ const Card = ({url, title, content}) => {
 }
 const Offer = () => {
   return (
-    <section className='grid px-6 my-16 sm:grid-cols-3 blue-blur'>
-<div className='flex flex-col items-center gap-12'>
+    <section className='flex flex-col px-6 my-40 sm:grid sm:grid-cols-3 blue-blur'>
+<div className='flex flex-col items-center order-2 gap-12 mb-12 sm:order-1'>
     <ScrollAnimation animateIn="zoomIn">
   <Card url="https://img.icons8.com/fluency/48/popular-man.png" title="IT Consulting" content="From choosing the right tech stack to designing scalable cloud infrastructure, we offer end-to-end IT consulting tailored to your startup’s specific needs. Whether it’s a one-time audit or ongoing support, we’ve got you covered. " />
 </ScrollAnimation>
@@ -23,14 +23,14 @@ const Offer = () => {
     <Card url="https://img.icons8.com/fluency/48/total-sales-1.png" title="Digital Marketing" content="Grow your brand and reach more customers with strategic, data-driven digital marketing solutions. From SEO optimization to social media strategy, we help you get measurable results." />
     </ScrollAnimation>
 </div>
-<div className='flex flex-col justify-center'>
-    <h4 className='text-white text-9xl bebas'>What We <span className='text-blue'>Offer</span></h4>
-    <h6 className='my-4 uppercase text-md text-off-white inter'>Comprehensive Services Tailored for Your Startup: <br /> We Provide Expertise Across Four Key Verticals to Drive Your Startup’s Growth </h6>
-    <div>
+<div className='flex flex-col justify-center order-1 sm:order-2'>
+    <h4 className='text-white text-8xl sm:text-9xl bebas'>What We <span className='text-blue'>Offer</span></h4>
+    <h6 className='my-4 mb-6 uppercase text-md text-off-white inter'>Comprehensive Services Tailored for Your Startup: <br /> We Provide Expertise Across Four Key Verticals to Drive Your Startup’s Growth </h6>
+    <div className='mb-6'>
 <ReverseAnimatedButton />
     </div>
 </div>
-<div className='flex flex-col items-center gap-12'>
+<div className='flex flex-col items-center order-3 gap-12'>
     <ScrollAnimation animateIn="zoomIn">
     <Card url="https://img.icons8.com/fluency/48/bot.png" title="AI Integration" content="Harness the power of artificial intelligence. Our consultants help you implement AI tools to automate repetitive tasks, improve decision-making, and gain a competitive edge." />
     </ScrollAnimation>

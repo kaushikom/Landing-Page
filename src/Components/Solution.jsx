@@ -14,12 +14,12 @@ const Card = ({url, title, content}) => {
 
 const Solution = () => {
   return (
-    <section className="py-12">
+    <section className="px-4 py-12">
   {/* Solution Intro */}
   <div className="flex flex-col items-center sm:flex-row sm:items-start sm:w-3/4 sm:mx-auto">
     {/* Content */}
-    <div className='max-w-[90ch]'>
-      <h1 className="mb-8 text-white bebas sm:text-7xl">
+    <div className='order-2 sm:order-1 max-w-[90ch]'>
+      <h1 className="mb-8 text-5xl text-white bebas sm:text-7xl">
       Affordable Tech Expertise, <br /> <span className='text-yellow'>No Equity</span> Needed 
       </h1>
       <h5 className="mb-6 text-lg font-semibold text-off-white sm:text-2xl">
@@ -30,7 +30,7 @@ const Solution = () => {
       </p>
     </div>
     {/* Icon */}
-    <div className="mb-4 w-fit sm:mr-6 sm:mb-0">
+    <div className="order-1 mb-8 sm:order-2 w-fit sm:mr-6 sm:mb-0">
       <img
       className='w-auto sm:h-[300px] h-[100px]'
         src={SolutionIcon}

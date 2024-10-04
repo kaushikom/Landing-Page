@@ -14,7 +14,7 @@ const Card = ({url, title, content}) => {
 
 const Problem = () => {
   return (
-    <section className="py-12">
+    <section className="px-4 py-12">
   {/* Problem Intro */}
   <div className="flex flex-col items-center sm:flex-row sm:items-start sm:w-3/4 sm:mx-auto">
     {/* Icon */}
@@ -27,7 +27,7 @@ const Problem = () => {
     </div>
     {/* Content */}
     <div className='max-w-[90ch]'>
-      <h1 className="mb-8 text-white bebas sm:text-8xl">
+      <h1 className="mb-8 text-5xl text-white bebas sm:text-8xl">
         What's holding <span className='text-blue'>your startup</span> back?
       </h1>
       <h5 className="mb-6 text-lg font-semibold text-off-white sm:text-2xl">
