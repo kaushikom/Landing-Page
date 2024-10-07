@@ -25,7 +25,7 @@ const CustomDatePicker = () => {
           required
           placeholder="mm/dd/yyyy"
           value={selected ? format(selected, 'MM/dd/yyyy') : ''}
-          className="px-4 py-2 text-2xl text-white bg-black border-2 outline-none sm:text-3xl accent-white placeholder:text-light-grey sora border-light-grey caret-blue focus:border-blue"
+          className="w-full px-4 py-2 text-2xl text-white bg-black border-2 outline-none sm:w-auto sm:text-3xl accent-white placeholder:text-light-grey sora border-light-grey caret-blue focus:border-blue"
           onClick={toggleCalendar}
         />
         {/* <MdCalendarToday 
