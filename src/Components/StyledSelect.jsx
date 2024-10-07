@@ -32,7 +32,7 @@ const StyledSelect = () => {
   return (
     <select 
       name="service" 
-      className="w-full px-4 py-2 pr-8 text-2xl bg-black border-2 outline-none sm:text-3xl border-light-grey caret-blue focus:border-blue"
+      className="w-full px-4 py-2 pr-8 text-lg bg-black border-2 outline-none sm:text-xl border-light-grey caret-blue focus:border-blue"
       value={selectedValue}
       required
       onChange={(e) => setSelectedValue(e.target.value)}

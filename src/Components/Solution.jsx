@@ -14,7 +14,7 @@ const Card = ({url, title, content}) => {
 
 const Solution = () => {
   return (
-    <section className="px-4 py-12">
+    <section id='solution' className="px-4 py-12">
   {/* Solution Intro */}
   <div className="flex flex-col items-center sm:flex-row sm:items-start sm:w-3/4 sm:mx-auto">
     {/* Content */}

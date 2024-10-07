@@ -4,7 +4,7 @@ import './Button.css';
 const AnimatedButton = ({content = 'Get Started', icon = 'true'}) => {
   return (
     <button className="animated-btn">
-      <span className="uppercase text">{content}</span>
+     <span className="uppercase text">{content}</span> 
       { icon && <span className="icon">→</span>}
     </button>
   );
