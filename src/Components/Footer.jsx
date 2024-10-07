@@ -77,12 +77,21 @@ const Footer = () => {
         </div>
         <div className='px-4 border-2 sm:flex border-light-grey'>
           <div className='py-2 mb-4 sm:px-4 sm:w-1/2'>
-            <h3 className='mb-2 font-sans text-lg font-bold text-off-white'>Help & Support</h3>
-            <h4 className='flex items-center gap-2 my-2 text-off-white'><MdOutlineMailOutline size={24} /> help@codebackward.com</h4>
-            <p className='flex items-center gap-2 my-2 text-off-white'><MdOutlineLocalPhone size={24} /> +91 9910674791</p>
+            <h3 className='mb-2 text-lg font-bold sora text-off-white'>Help & Support</h3>
+        <h4 className='flex items-center gap-2 my-2 text-off-white'>
+  <MdOutlineMailOutline size={24} />
+  <a href="mailto:help@codebackward.com" className='text-off-white'>
+    help@codebackward.com
+  </a>
+</h4>
+
+          <p className='flex items-center gap-2 my-2 text-off-white'>
+  <MdOutlineLocalPhone size={24} /> 
+  <a href="tel:+919910674791">+91 9910674791</a>
+</p>
           </div>
-          <div className='flex flex-col gap-2 py-2 sm:border-l-2 sm:px-4 border-light-grey text-off-white'>
-            <h3 className='font-sans text-lg font-bold'>Important Links</h3>
+          <div className='flex flex-col gap-2 py-2 mb-4 sm:border-l-2 sm:px-4 border-light-grey text-off-white'>
+            <h3 className='text-lg font-bold sora'>Important Links</h3>
             <a className='hover:text-blue sora' href="#testimonials">Testimonials</a>
             <a className='hover:text-blue sora' href="#solution">Our Solution</a>
           </div>
