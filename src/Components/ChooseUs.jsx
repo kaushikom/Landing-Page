@@ -17,7 +17,7 @@ const ChooseUs = () => {
 <div className='max-w-[90ch]'>
     <h2 className='text-4xl text-white sm:text-6xl unbounded'>The Code Backward Lab Advantage </h2>
     <h5 className='my-12 text-xl sm:text-2xl text-off-white inter'>Startups Trust Us to Deliver Results Without Sacrificing Ownership or Overspending </h5>
-    <p className='text-md sm:text-lg font-semibold text-off-white my-4 max-w-[70ch]'>When you work with us, you don’t just get technical advice—you get a true partner invested in your success. Here’s why startups choose us: </p>
+    <p className='text-md sora sm:text-lg font-semibold text-off-white my-4 max-w-[70ch]'>When you work with us, you don’t just get technical advice—you get a true partner invested in your success. Here’s why startups choose us: </p>
     <div className='flex gap-12 mt-20 mb-8 sm:gap-24'>
         <div className='text-off-white'><strong className='text-6xl text-white'><CountUp  end={800} enableScrollSpy />+</strong><br />Projects Completed</div>
         <div className='text-off-white'><strong className='text-6xl text-white'><CountUp  end={300} enableScrollSpy />+</strong><br />Happy Clients</div>

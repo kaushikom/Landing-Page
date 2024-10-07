@@ -33,7 +33,7 @@ const App = () => {
     <footer className='flex flex-col justify-between px-4 my-8 sm:flex-row text-off-white'>
    <div className='order-3 mb-6 opacity-70 sm:order-1'><h6 className='flex gap-1 sm:items-center'><RiMoneyDollarCircleLine size={24} /><span>Hire a Tech Co-founder Without Breaking the Bank.</span></h6><p className='mt-2'>Copyright &copy; 2024 - Code Backwards Lab | All rights reserved</p></div>
    <div className='order-1 sm:order-2'>
-    <ul className='flex gap-8 my-6'>
+    <ul className='flex flex-col gap-8 my-6 sm:flex-row'>
       <li><a className='hover:text-blue' href="">Pricing</a></li>
       <li><a className='hover:text-blue' href="">Terms of services</a></li>
       <li><a className='hover:text-blue' href="">Privacy Policy</a></li>
