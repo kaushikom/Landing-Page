@@ -8,7 +8,7 @@ const Card = ({url, title, content}) => {
 <div className='px-6 w-[40ch] py-6 border-2 rounded-lg border-light-grey bg-grey'>
         <img width="40" height="40" src={url}/>
         <h3 className='my-4 text-2xl font-bold text-white'>{title}</h3>
-        <p className='text-lg text-off-white'>{content}</p>
+        <p className='text-lg text-off-white sora'>{content}</p>
     </div> 
   )
 }

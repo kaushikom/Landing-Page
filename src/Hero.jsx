@@ -11,7 +11,7 @@ const Hero = () => {
 </nav>
 <div className='px-7'>
   <h1 className='mx-auto mt-20 text-center text-white uppercase text-7xl sm:text-9xl sm:w-3/4 sm:heading-size bebas'>Hire a <span className='text-blue'>Tech Co-founder</span> Without Breaking the Bank.</h1>
-  <p className='mx-auto mt-8 text-center uppercase sm:w-1/2 text-off-white'>Your Startup’s Tech Partner, Delivered Affordably and On-Demand
+  <p className='mx-auto mt-8 text-center uppercase sora sm:w-1/2 text-off-white'>Your Startup’s Tech Partner, Delivered Affordably and On-Demand
   
   Need tech expertise to scale your startup but don’t want to give up equity or pay exorbitant fees? </p>
   <div className='flex justify-center mt-8'>

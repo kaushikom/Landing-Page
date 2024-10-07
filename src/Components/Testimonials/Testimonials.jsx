@@ -15,7 +15,7 @@ const Card = ({content, author, designation, profileUrl = ''}) => {
               <FaQuoteRight/>
               </IconContext.Provider>
             </div>
-            <p className='text-justify text-white text-md'>{content}</p>
+            <p className='text-justify text-white text-md sora'>{content}</p>
             </div>
             <div className='flex items-center justify-center order-1 my-4 sm:order-2'>
               { profileUrl && ( <img src={profileUrl} alt="" className='w-auto max-h-[100px] rounded-full' />)}
@@ -37,7 +37,7 @@ const Testimonials = () => {
         <div className='h-full sm:w-2/5'>
           <div className='sm:sticky sm:top-8'>
             <h1 className='text-8xl sm:text-[128px] bebas sm:heading-size text-white'>WHAT OUR <span className='text-blue'>CLIENTS SAY</span></h1>
-            <p className='mt-4 mb-8 uppercase text-off-white'>Don’t Just Take Our Word for It—Here’s What Startup Founders Are Saying </p>
+            <p className='mt-4 mb-8 uppercase inter text-off-white'>Don’t Just Take Our Word for It—Here’s What Startup Founders Are Saying </p>
           </div>
         </div>
         <div>

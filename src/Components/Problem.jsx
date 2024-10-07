@@ -7,7 +7,7 @@ const Card = ({url, title, content}) => {
 <div className='px-6  w-[30ch] py-6 hover:border-blue transition hover:scale-105 cursor-pointer border-2 rounded-lg border-light-grey bg-grey'>
         <img width="40" height="40" src={url}/>
         <h3 className='my-4 text-2xl font-bold text-white'>{title}</h3>
-        <p className='text-lg text-off-white'>{content}</p>
+        <p className='text-lg text-off-white sora'>{content}</p>
     </div> 
   )
 }
@@ -30,10 +30,10 @@ const Problem = () => {
       <h1 className="mb-8 text-5xl text-white bebas sm:text-8xl">
         What's holding <span className='text-blue'>your startup</span> back?
       </h1>
-      <h5 className="mb-6 text-lg font-semibold text-off-white sm:text-2xl">
+      <h5 className="mb-6 text-lg font-semibold sora text-off-white sm:text-2xl">
         Finding the Right Tech Partner Shouldn’t Mean Sacrificing Ownership or Overspending
       </h5>
-      <p className="text-base font-semibold text-slate sm:text-xl">
+      <p className="text-base font-semibold sora text-slate sm:text-xl">
         As a startup founder, you’re wearing many hats—product development, sales, marketing, and everything in between. However, without strong technical leadership, scaling your business is a constant uphill battle. Many founders face these challenges:
       </p>
     </div>

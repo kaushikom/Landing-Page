@@ -7,7 +7,7 @@ const Card = ({url, title, content}) => {
 <div className='px-6  w-[30ch] py-6 hover:border-yellow transition hover:scale-105 cursor-pointer border-2 rounded-lg border-light-grey bg-grey'>
         <img width="40" height="40" src={url}/>
         <h3 className='my-4 text-2xl font-bold text-white'>{title}</h3>
-        <p className='text-lg text-off-white'>{content}</p>
+        <p className='text-lg sora text-off-white'>{content}</p>
     </div> 
   )
 }
@@ -22,11 +22,11 @@ const Solution = () => {
       <h1 className="mb-8 text-5xl text-white bebas sm:text-7xl">
       Affordable Tech Expertise, <br /> <span className='text-yellow'>No Equity</span> Needed 
       </h1>
-      <h5 className="mb-6 text-lg font-semibold text-off-white sm:text-2xl">
+      <h5 className="mb-6 text-lg font-semibold sora text-off-white sm:text-2xl">
        On-Demand Tech Co-founder Services to Help You Build, Scale, and Automate - Without Breaking the Bank 
       </h5>
-      <p className="text-base font-semibold text-slate sm:text-xl">
-       At <strong className='text-off-white'>Code Backward Lab</strong>, we offer flexible tech consulting services designed specifically for startups. Whether you need help with system architecture, AI integration, or digital marketing automation, we act as your tech co-founder—providing all the expertise, without asking for equity. 
+      <p className="text-base font-semibold text-slate sora sm:text-xl">
+       At Code Backward Lab, we offer flexible tech consulting services designed specifically for startups. Whether you need help with system architecture, AI integration, or digital marketing automation, we act as your tech co-founder—providing all the expertise, without asking for equity. 
       </p>
     </div>
     {/* Icon */}
