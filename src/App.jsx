@@ -1,7 +1,6 @@
 import React from 'react'
 import ScrollToTop from "react-scroll-to-top";
 import { FaArrowUp } from "react-icons/fa";
-import { RiMoneyDollarCircleLine } from "react-icons/ri";
 import { ReverseAnimatedButton } from './Components/AnimatedButton/Animatedbutton';
 import Hero from './Hero'
 import Services from './Components/Services/Services'
@@ -30,13 +29,13 @@ const App = () => {
     <GettingStarted />
     <Contact />
     <Footer />
-    <footer className='flex flex-col justify-between px-4 my-8 sm:flex-row text-off-white'>
-   <div className='order-3 mb-6 opacity-70 sm:order-1'><h6 className='flex gap-1 sm:items-center'><RiMoneyDollarCircleLine size={24} /><span>Hire a Tech Co-founder Without Breaking the Bank.</span></h6><p className='mt-2'>Copyright &copy; 2024 - Code Backwards Lab | All rights reserved</p></div>
+    <footer className='flex flex-col justify-between px-4 mt-8 sm:flex-row text-off-white'>
+   <div className='order-3 mb-6 opacity-70 sm:order-1'><p className=''>Copyright &copy; 2024 - Code Backwards Lab | All rights reserved</p></div>
    <div className='order-1 sm:order-2'>
-    <ul className='flex flex-col gap-8 my-6 sm:flex-row'>
-      <li><a className='hover:text-blue' href="">Pricing</a></li>
-      <li><a className='hover:text-blue' href="">Terms of services</a></li>
-      <li><a className='hover:text-blue' href="">Privacy Policy</a></li>
+    <ul className='flex flex-col gap-8 mb-4 sm:flex-row'>
+      <li><a className=' hover:text-blue' href="">Pricing</a></li>
+      <li><a className=' hover:text-blue' href="">Terms of services</a></li>
+      <li><a className=' hover:text-blue' href="">Privacy Policy</a></li>
     </ul>
    </div>
    <div className='order-2 mb-6 sm:order-3'>

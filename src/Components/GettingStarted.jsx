@@ -13,15 +13,15 @@ const GettingStarted = () => {
             <ul className='px-3 list-decimal'>
                 <li className='mb-8 text-lg text-white sm:text-2xl'>
                     <h4 className='mb-2 text-lg sm:text-2xl text-off-white unbounded'>Choose your plan</h4>
-                    <p className='font-bold text-slate sm:text-xl'>Select the consultation tier that fits your needs—whether it’s quick advice or comprehensive, long-term support.</p>
+                    <p className='font-bold text-slate sm:text-xl sora'>Select the consultation tier that fits your needs—whether it’s quick advice or comprehensive, long-term support.</p>
                 </li>
                 <li className='mb-8 text-lg text-white sm:text-2xl'>
                     <h4 className='mb-2 text-lg sm:text-2xl text-off-white unbounded'>Book an Introductory Call</h4>
-                    <p className='font-bold text-slate sm:text-xl'>Schedule a free 30-minute introductory call with our experts to discuss your startup’s challenges and how we can help.</p>
+                    <p className='font-bold text-slate sm:text-xl sora'>Schedule a free 30-minute introductory call with our experts to discuss your startup’s challenges and how we can help.</p>
                 </li>
                 <li className='mb-8 text-lg text-white sm:text-2xl'>
                     <h4 className='mb-2 text-lg sm:text-2xl text-off-white unbounded'>Get to Work</h4>
-                    <p className='font-bold text-slate sm:text-xl'>After the call, we’ll create a custom action plan and start working with you to solve your most pressing tech challenges.</p>
+                    <p className='font-bold text-slate sm:text-xl sora'>After the call, we’ll create a custom action plan and start working with you to solve your most pressing tech challenges.</p>
                 </li>
             </ul>
         </div>
