@@ -125,7 +125,7 @@ const Footer = () => {
         <div className='flex flex-wrap border-2 border-t-0 border-light-grey'>
           {['LINKEDIN', 'INSTAGRAM', 'TWITTER', 'FACEBOOK'].map((link) => (
             <div key={link} className='w-1/2 sm:w-1/4 border-[1px] border-light-grey text-center inter py-4 sm:text-lg'>
-              <a href="">{link}</a>
+              <a href="" className='hover:text-blue'>{link}</a>
             </div>
           ))}
         </div>
